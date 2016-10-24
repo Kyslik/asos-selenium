@@ -46,7 +46,7 @@ brew install chromedriver
 After package managers install all required software you are ready to use example code.
 
 ## Usage / running
-Change [TodoAppTest.php on line 11](https://github.com/Kyslik/asos-selenium/blob/master/application/tests/TodoApp/TodoAppTest.php#L11) with path to Todo application.
+Change `$url` variable on [TodoAppTest.php on line 11](https://github.com/Kyslik/asos-selenium/blob/master/application/tests/TodoApp/TodoAppTest.php#L11) to reflect path to Todo application.
 
 Open up two terminal windows (or tabs), one is going to be used for **selenium-standalone-server** (tab A) and second one is going to be used for **PHPUnit** (tab B).  
 
