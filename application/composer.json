@@ -1,0 +1,13 @@
+
+{
+    "require": {
+        "fzaninotto/faker": "~1.4",
+        "facebook/webdriver": "dev-master",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Tests\\": "tests/"
+        }
+    }
+}
