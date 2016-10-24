@@ -6,7 +6,7 @@ This is kind of seminar paper for ASOS class.
  - demonstrate
 
 ## Documentation
-Documentation is written in LaTeX, using upgraded [FEIStyle template](https://github.com/Kyslik/FEIStyle); see [documentation](https://github.com/Kyslik/asos-selenium/blob/master/documentation) folder.
+Documentation is written in LaTeX, using upgraded [FEIStyle template](https://github.com/Kyslik/FEIStyle); see [documentation](https://github.com/Kyslik/asos-selenium/blob/master/documentation) folder or see compiled pdf [here](https://github.com/Kyslik/asos-selenium/blob/master/documentation/selenium_kiesel.pdf).
 
 ## Presentation
 Presentation is made in Keynote 6.6.2 (2571), please email me if you are interested in `.key` file.
@@ -16,4 +16,4 @@ Presentation is made in Keynote 6.6.2 (2571), please email me if you are interes
  - presentation with demonstration is timed to ~25 minutes
  
 ## Working example
-Please see [application](https://github.com/Kyslik/asos-selenium/blob/master/aplication) folder.
+Please see [application](https://github.com/Kyslik/asos-selenium/blob/master/application) folder.
