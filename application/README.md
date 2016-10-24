@@ -15,7 +15,7 @@ Make sure your server (computer) meets the following requirements:
     - [edgedriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) - Microsoft Edge
     - [operadriver](https://github.com/operasoftware/operachromiumdriver) - Opera
 
->**Note**: I tested this working example only with **chromedriver**
+>**Note**: I tested this working example only with **chromedriver**  
 >**Note**: on Mac OS you can install **selenium-standalone-server** (and some drivers) using [homebrew](http://brew.sh/index.html)
 ```
 brew install selenium-server-standalone
@@ -61,10 +61,10 @@ Open up two terminal windows (or tabs), one is going to be used for **selenium-s
 
  - in tab B change working directory to `./application` and simply run `vendor/bin/phpunit`
 
- >Please do read [documentation](https://github.com/Kyslik/asos-selenium/blob/master/documentation/selenium_kiesel.pdf) in order to undersand how Selenium works, and what exactly is this working example demonstrating.
-
 ### Brief explanation
 In tab A you can monitor what exactly is PHPUnit invoking while test is beeing run (kind of selenium log). 
 In tab B you may observe execution of PHPUnit test suite located in `./application/tests/TodoApp`. 
 
 On the background PHPUnit invokes selenium-standalone-server with some rules/patterns and selenium-standalone-server translates it to (in this case) chromedriver API.
+
+>Please do read [documentation](https://github.com/Kyslik/asos-selenium/blob/master/documentation/selenium_kiesel.pdf) in order to undersand how Selenium works, and what exactly is this working example demonstrating.
