@@ -2,9 +2,9 @@
 
 namespace Tests\TodoApp;
 
+use Facebook\WebDriver\WebDriverBy;
+use Facebook\WebDriver\WebDriverKeys;
 use Tests\AbstractTestCase;
-use WebDriverBy;
-use WebDriverKeys;
 
 class TodoAppTest extends AbstractTestCase
 {

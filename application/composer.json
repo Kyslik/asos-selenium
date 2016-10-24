@@ -1,9 +1,23 @@
-
 {
+  "name": "kyslik/selenium-example",
+  "description": "",
+  "keywords": [
+    "selenium",
+    "php-webdriver",
+    "testing",
+    "demonstration"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Kiesel",
+      "email": "martinkiesel@gmail.com"
+    }
+  ],
     "require": {
-        "fzaninotto/faker": "~1.4",
-        "facebook/webdriver": "dev-master",
-        "phpunit/phpunit": "*"
+        "php": ">=5.6.4",
+        "facebook/webdriver": "1.2.0",
+        "phpunit/phpunit": "5.6.1"
     },
     "autoload": {
         "psr-4": {

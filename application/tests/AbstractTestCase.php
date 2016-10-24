@@ -2,13 +2,13 @@
 
 namespace Tests;
 
-use ChromeOptions;
-use DesiredCapabilities;
+use Facebook\WebDriver\Chrome\ChromeOptions;
+use Facebook\WebDriver\Interactions\WebDriverActions;
+use Facebook\WebDriver\Remote\DesiredCapabilities;
+use Facebook\WebDriver\Remote\RemoteWebDriver;
+use Facebook\WebDriver\WebDriverBy;
+use Facebook\WebDriver\WebDriverKeys;
 use PHPUnit_Framework_TestCase;
-use RemoteWebDriver;
-use WebDriverActions;
-use WebDriverBy;
-use WebDriverKeys;
 
 abstract class AbstractTestCase extends PHPUnit_Framework_TestCase
 {
