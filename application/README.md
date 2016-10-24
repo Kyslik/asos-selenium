@@ -1,4 +1,4 @@
-# Acceptance testing of Todo application using php-webdriver - Selenium.
+# Todo application testin using Selenium.
 Demonstration of Selenium using php-webdriver by Facebook on top of PHPUnit.
 
 ## Prerequisites
