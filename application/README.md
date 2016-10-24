@@ -16,7 +16,6 @@ Make sure your server (computer) meets the following requirements:
     - [operadriver](https://github.com/operasoftware/operachromiumdriver) - Opera
 
 >**Note**: I tested this working example only with **chromedriver**
-
 >**Note**: on Mac OS you can install **selenium-standalone-server** (and some drivers) using [homebrew](http://brew.sh/index.html)
 ```
 brew install selenium-server-standalone
@@ -46,7 +45,9 @@ brew install chromedriver
 
 After package managers install all required software you are ready to use example code.
 
-## Usage / running 
+## Usage / running
+Change [TodoAppTest.php on line 11](https://github.com/Kyslik/asos-selenium/blob/master/application/tests/TodoApp/TodoAppTest.php#L11) with path to Todo application.
+
 Open up two terminal windows (or tabs), one is going to be used for **selenium-standalone-server** (tab A) and second one is going to be used for **PHPUnit** (tab B).  
 
  - in tab A start **selenium-standalone-server** on port 4444 (default), to do so run following:
@@ -62,6 +63,6 @@ Open up two terminal windows (or tabs), one is going to be used for **selenium-s
 
 ### Brief explanation
 In tab A you can monitor what exactly is PHPUnit invoking while test is beeing run (kind of selenium log). 
-In tab B you observe execution of PHPUnit test suite located in `./application/tests/TodoApp`. 
+In tab B you may observe execution of PHPUnit test suite located in `./application/tests/TodoApp`. 
 
 On the background PHPUnit invokes selenium-standalone-server with some rules/patterns and selenium-standalone-server translates it to (in this case) chromedriver API.
